@@ -25,37 +25,19 @@
         </activity>
         <activity
             android:name=".modul7.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.TugasPraktikum">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.TugasPraktikum" />
         <activity
             android:name=".modul6.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.TugasPraktikum">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.TugasPraktikum" />
         <activity
             android:name=".lk03.MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.TugasPraktikum">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/Theme.TugasPraktikum" />
         <activity
             android:name=".modul5.MainActivity"
             android:exported="false"
@@ -85,11 +67,6 @@
             android:name=".modulPraktikum.modul2.ActivityModul2"
             android:exported="false"
             android:label="@string/title_activity_modul2"
-            android:theme="@style/Theme.TugasPraktikum" />
-        <activity
-            android:name=".ActivityUtama"
-            android:exported="false"
-            android:label="@string/title_activity_utama"
             android:theme="@style/Theme.TugasPraktikum" />
         <activity
             android:name=".MainActivity"
