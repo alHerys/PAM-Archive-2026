@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     kotlin("plugin.serialization") version "2.0.21"
     id("kotlin-parcelize")
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -65,4 +66,13 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     // Kotlin Serialization
     implementation(libs.xkotlinx.serialization.json)
+
+    // Modul 8
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
+
+    // Retrofit
+    implementation(libs.com.squareup.retrofit2.retrofit)
+    implementation(libs.retrofit2.converter.gson)
 }
